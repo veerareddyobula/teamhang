@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 const App = () =>(
     <div>
-        Hello Veera
+        Hello Veera, Watch is working ... have a good dev
     </div>
 )
 

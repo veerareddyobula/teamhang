@@ -1,27 +1,16 @@
-# Slim Framework 3 Skeleton Application
+# Teamhang
 
-Use this skeleton application to quickly setup and start working on a new Slim Framework 3 application. This application uses the latest Slim 3 with the PHP-View template renderer. It also uses the Monolog logger.
+Teamhang web application is developed to help ProjectLead/Teammembers fallowing Scrum Methodology in their projects.
 
-This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
+# Technologies Used
+## Backend
+1) MySQL
+2) PHP Slim
+## Frontend
+1) HTML5, CSS3, Materialize-ui
+2) React.js / Redux / React-Redux / Redux-Saga
+## Database
+1) MySQL
+## Hosting
+1) Godaddy
 
-## Install the Application
-
-Run this command from the directory in which you want to install your new Slim Framework application.
-
-    php composer.phar create-project slim/slim-skeleton [my-app-name]
-
-Replace `[my-app-name]` with the desired directory name for your new application. You'll want to:
-
-* Point your virtual host document root to your new application's `public/` directory.
-* Ensure `logs/` is web writeable.
-
-To run the application in development, you can run these commands 
-
-	cd [my-app-name]
-	php composer.phar start
-
-Run this command in the application directory to run the test suite
-
-	php composer.phar test
-
-That's it! Now go build something cool.

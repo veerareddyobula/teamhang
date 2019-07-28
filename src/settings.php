@@ -15,5 +15,17 @@ return [
             'path' => isset($_ENV['docker']) ? 'php://stdout' : __DIR__ . '/../logs/app.log',
             'level' => \Monolog\Logger::DEBUG,
         ],
+
+        // Database connection settings
+        /**
+         * Create Database / User 
+         * http://www.daniloaz.com/en/how-to-create-a-user-in-mysql-mariadb-and-grant-permissions-on-a-specific-database/
+         */
+        "db" => [
+            "host" => "locahost",
+            "dbname" => "teamhang",
+            "user" => "teamhangDbUser",
+            "pass" => "Veera@322"
+        ],
     ],
 ];
